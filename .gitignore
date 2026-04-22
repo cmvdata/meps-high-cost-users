@@ -1,0 +1,23 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# renv
+renv/library/
+renv/local/
+renv/lock/
+renv/staging/
+
+# Data (raw files are large; processed files can be regenerated)
+data/raw/*.dta
+data/raw/*.zip
+data/raw/*.ssp
+data/processed/*.rds
+
+# OS
+.DS_Store
+Thumbs.db
+
+
